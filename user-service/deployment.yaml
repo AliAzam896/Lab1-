@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: quay.io/openshift/origin-hello-openshift:latest
+        image: nginxinc/nginx-unprivileged:latest
         ports:
         - containerPort: 8080
         envFrom:
